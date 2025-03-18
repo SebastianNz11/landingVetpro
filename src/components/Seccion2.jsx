@@ -1,6 +1,6 @@
 export const Seccion2 = () => {
   return (
-    <div className="container-fluid fondo">
+    <div className="container-fluid fondo vh-100 d-flex justify-content-center align-items-center">
       <div className="row">
         <div className="col-6 ps-5">
           <img

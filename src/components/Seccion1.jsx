@@ -7,7 +7,7 @@ export const Seccion1 = () => {
             <div className="col-12 m-auto ps-5 ms-5">
               <h1 className="display-1 fw-bold ms-5">VetPro</h1>
               <h3 className="ms-5">Salud y bienestar para tus mascotas.</h3>
-              <button className="btn btn-warning ms-5 mt-3">Agendar cita</button>
+              <button className="btn boton ms-5 mt-3 text-white fs-5 fw-bold" style={{width:"250px", height: "50px"}}>Agendar cita</button>
             </div>
           </div>
         </div>
