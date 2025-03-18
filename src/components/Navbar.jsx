@@ -1,11 +1,11 @@
+import '../app.css';
+
 export const Navbar = () => {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg bg-body-tertiary">
+      <nav className="navbar navbar-expand-lg fondo">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">
-            Navbar
-          </a>
+            <img src="/public/VETPRO.jpg" alt="" style={{width: "75px", height: "75px"}}/>
           <button
             className="navbar-toggler"
             type="button"
@@ -20,17 +20,17 @@ export const Navbar = () => {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a className="nav-link" aria-current="page" href="#">
+                <a className="nav-link text-white fw-bold" aria-current="page" href="#">
                   Home 1
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link text-white fw-bold" href="#">
                   Home 2
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link text-white fw-bold" href="#">
                   Home 3
                 </a>
               </li>
