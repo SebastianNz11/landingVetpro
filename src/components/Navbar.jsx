@@ -1,11 +1,15 @@
-import '../app.css';
+import "../app.css";
 
 export const Navbar = () => {
   return (
-    <div>
-      <nav className="navbar navbar-expand-lg fondo">
+    <div className="sticky-top">
+      <nav className="navbar navbar-expand-lg fondo shadow-lg">
         <div className="container-fluid">
-            <img src="/public/VETPRO.jpg" alt="" style={{width: "75px", height: "75px"}}/>
+          <img
+            src="/public/VETPRO.jpg"
+            alt=""
+            style={{ width: "75px", height: "75px" }}
+          />
           <button
             className="navbar-toggler"
             type="button"
@@ -20,13 +24,17 @@ export const Navbar = () => {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a className="nav-link text-white fw-bold" aria-current="page" href="#">
-                  Home 1
+                <a
+                  className="nav-link text-white fw-bold"
+                  aria-current="page"
+                  href="/"
+                >
+                  Inicio
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-white fw-bold" href="#">
-                  Home 2
+                <a className="nav-link text-white fw-bold" href="#seccion2">
+                  Quiénes somos
                 </a>
               </li>
               <li className="nav-item">
