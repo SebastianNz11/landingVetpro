@@ -13,7 +13,7 @@ export const Seccion1 = () => {
         </div>
         <div className="col-6 p-0">
           <img
-            src="/public/section1.jpg"
+            src="/section1.jpg"
             alt=""
             className="img-fluid mb-5 pb-5 pt-0 mt-0"
             style={{ height: "100vh", width: "100%" }}

@@ -6,7 +6,7 @@ export const Navbar = () => {
       <nav className="navbar navbar-expand-lg fondo shadow-lg">
         <div className="container-fluid">
           <img
-            src="/public/VETPRO.jpg"
+            src="/VETPRO.jpg"
             alt=""
             style={{ width: "75px", height: "75px" }}
           />

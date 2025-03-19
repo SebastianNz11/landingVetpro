@@ -4,7 +4,7 @@ export const Seccion2 = () => {
       <div className="row">
         <div className="col-6 ps-5">
           <img
-            src="/public/section2.2.png"
+            src="/section2.2.png"
             alt=""
             className="img-fluid ms-5"
             style={{ height: "75vh", width: "100%" }}
