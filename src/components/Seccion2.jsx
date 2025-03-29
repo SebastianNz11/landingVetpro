@@ -1,7 +1,7 @@
 export const Seccion2 = () => {
   return (
-    <div className="container-fluid fondo vh-100 d-flex justify-content-center align-items-center" id="seccion2">
-      <div className="row">
+    <div className="container-fluid fondo vh-100 d-flex justify-content-center" id="seccion2">
+      <div className="row align-items-center">
         <div className="col-6 ps-5">
           <img
             src="/section2.2.png"
@@ -10,13 +10,13 @@ export const Seccion2 = () => {
             style={{ height: "75vh", width: "100%" }}
           />
         </div>
-        <div className="col-6 d-flex justify-content-center align-items-center text-white pe-4">
-          <div className="row me-2 pe-4">
-            <div className="col-12 mt-5 p-5">
-              <h1 className="display-1 fw-bold me-5 ms-5 mb-5">
+        <div className="col-6 d-flex justify-content-center text-white pe-4">
+          <div className="row me-2">
+            <div className="col-12 mt-5">
+              <h1 className="display-3 fw-bold me-5 ms-5">
                 ¿Quiénes somos?
               </h1>
-              <p className="fs-4 me-5 ms-5 ">
+              <p className="fs-5 me-5 ms-5 ">
                 Somos una clínica veterinaria que se preocupa por la salud y el
                 bienestar de tus mascotas. Contamos con un equipo de
                 profesionales altamente capacitados y con una amplia experiencia
