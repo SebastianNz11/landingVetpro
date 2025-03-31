@@ -7,8 +7,26 @@ export const Section3 = () => {
     formState: { errors },
   } = useForm();
 
+  const postData = async (data) => {
+    try {
+      const response = await fetch("http://localhost:4000/sendcorreo", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(data),
+      });
+      if (!response.ok) {
+        throw new Error("Error en la petición");
+      }
+    } catch (error) {
+      console.log(error.message);
+    }
+  };
+
   const onSubmit = (data) => {
     console.log(data);
+    postData(data);
     reset();
   };
 
